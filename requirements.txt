@@ -1,3 +1,0 @@
-flask
-google-generativeai
-gunicorn  # Để chạy production trên Render
