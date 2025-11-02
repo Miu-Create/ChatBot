@@ -1,3 +1,3 @@
-flask
-google-generativeai
-gunicorn  # Để chạy production trên Render
+flask==3.0.0
+google-generativeai==0.3.2
+gunicorn==21.2.0
