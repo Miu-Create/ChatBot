@@ -9,7 +9,7 @@ api_key = os.environ.get('GEMINI_API_KEY', 'AIzaSyDeHPwENAx3vZwFop1wLn3vYIpmKLxv
 genai.configure(api_key=api_key)
 
 # Initialize model
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-3-pro-preview')
 
 SYSTEM_PROMPT = """You are a versatile, friendly, and intelligent AI assistant. 
 
